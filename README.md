@@ -14,6 +14,6 @@
 - [x] Inserta el diagrama en el README.md con`
 ---
 
-## 🖼 Diagrama de clases
+## Diagrama de clases
 
 ![Diagrama de clases](uml/diagrama_clases.svg)
