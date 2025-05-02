@@ -1,0 +1,13 @@
+@startuml
+class Moto{
+    - cilindrada : int
+    - peso : int
+    - alturaAsiento : double
+    - tipoTransmision : Transmision
+
+    + calcularDepreciacion(): double
+}
+note right of Moto::tipoTransmision
+Valores validos: MANUAL, AUTOMATIC
+end note
+@enduml

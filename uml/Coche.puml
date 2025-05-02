@@ -1,0 +1,18 @@
+@startuml
+class Coche{
+  - numPuertas : int {3, 5}
+  - tipoCombustible : TipoCombustible
+  - capacidadMaletero : int
+  - traccion : Traccion
+
+  + calcularDepreciacion(): double
+ }
+
+ note right of Coche::tipoCombustible
+ Valores posibles: GASOLINA, DIESEL, HIBRIDO, ELECTRICO
+ end note
+
+ note right of Coche::traccion
+ Valores posibles: DELANTERA, TRASERA, 4X4
+ end note
+@enduml

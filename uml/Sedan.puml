@@ -1,0 +1,9 @@
+@startuml
+ class Sedan{
+  - espacioInterior : double
+  - nivelConfort : TipeDeNivelDeConfort
+ }
+ note right of Sedan::nivelConfort
+ Values validos BASICO, MEDIO, PREMIUM
+ end note
+@enduml

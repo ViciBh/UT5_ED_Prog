@@ -1,0 +1,18 @@
+@startuml
+abstract class Vehiculo{
+  # matricula: String
+  # marca: String
+  # modelo: String
+  # añoFabricacion: int
+  # kilometraje: int
+  # precio: double
+  # estado: EstadoVehiculo
+  # propietario: Persona
+
+  + calcularDepreciacion(): double
+  + calcularRiesgo(): NivelRiesgo
+  + validarMatricula(m: String): boolean
+}
+
+
+@enduml

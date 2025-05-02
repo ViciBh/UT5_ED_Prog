@@ -1,0 +1,24 @@
+@startuml
+
+!include Vehiculo.puml
+!include Coche.puml
+!include Moto.puml
+!include Camion.puml
+!include Persona.puml
+!include SUV.puml
+!include Sedan.puml
+!include Deportivo.puml
+!include Scooter.puml
+!include MotoDeportiva.puml
+!include Valorable.puml
+Persona "1" o-- "1..*" Vehiculo
+Coche --|> Vehiculo
+Moto --|> Vehiculo
+Camion --|> Vehiculo
+Deportivo --|> Coche
+Sedan --|> Coche
+SUV --|> Coche
+Deportiva --|> Moto
+Scooter --|> Moto
+Vehiculo ..|> Valorable
+@enduml

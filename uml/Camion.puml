@@ -1,0 +1,8 @@
+@startuml
+class Camion{
+    - capacidadCarga : double
+    - numEjes : int
+
+    + calcularDepreciacion(): double
+}
+@enduml
